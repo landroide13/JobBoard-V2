@@ -27,6 +27,10 @@ export class JobPage implements OnInit {
     })
   }
 
+  onFilterUpdate(event: Event){
+
+  }
+
 
 
 }
