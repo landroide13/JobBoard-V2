@@ -24,13 +24,15 @@ h1{
 }
 
 .title{
-  color: var(--ion-color-dark);
+  color: var(--ion-color-light);
   font-weight: 700;
 }
 
 ion-menu-button{
   border-radius: 50px;
   background-color: var(--ion-color-warning);
+  margin-top: .2em;
+  margin-bottom: .2em;
 }
 
 ion-icon{
@@ -41,4 +43,22 @@ ion-icon{
 
 ion-header{
   background-color: var(--ion-color-light);
+}
+
+ion-segment-button{
+  font-size: 1em;
+  font-weight: 700;
+  color: #000;
+  background-color: var(--ion-color-light);
+}
+
+ion-card-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h3{
+    font-size: 1.2em;
+    margin-left: .5em;
+  }
 }

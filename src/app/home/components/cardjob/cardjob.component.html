@@ -1,0 +1,14 @@
+
+
+<ion-card [routerLink]="['/', 'job', job.id]" *ngFor="let job of jobs; let index">
+  <ion-thumbnail>
+    <img [src]="job.logoUrl" />
+  </ion-thumbnail>
+  
+  <ion-card-header>
+    <h3 class="title">{{ job.title }}</h3>
+  </ion-card-header> 
+</ion-card>
+
+
+
